@@ -14,11 +14,11 @@ int main() {
     cout << "Enter a one-digit number: ";
     cin >> digit;
     
-//    int sum = digit - '0';
-    int digitAsNumber = digit;
+    int sum = digit - '0';
+//    int digitAsNumber = digit;
     
-//    cout << "Is the sum of digits " << sum << "?\n";
-    cout << "This is the digit as a number: " << digitAsNumber << endl;
+    cout << "Is the sum of digits " << sum << "?\n";
+//    cout << "This is the digit as a number: " << digitAsNumber << endl;
     
     return 0;
 }
