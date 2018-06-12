@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
+int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    char digit;
+    
+    cout << "Enter a one-digit number: ";
+    cin >> digit;
+    
+//    int sum = digit - '0';
+    int digitAsNumber = digit;
+    
+//    cout << "Is the sum of digits " << sum << "?\n";
+    cout << "This is the digit as a number: " << digitAsNumber << endl;
+    
     return 0;
 }
