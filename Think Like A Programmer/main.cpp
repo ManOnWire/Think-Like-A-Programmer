@@ -9,7 +9,6 @@
 using namespace std;
 
 int main() {
-    // insert code here...
     char digit;
     
     cout << "Enter a one-digit number: ";
