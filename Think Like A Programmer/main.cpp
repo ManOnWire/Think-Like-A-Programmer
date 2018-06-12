@@ -1,10 +1,9 @@
-//
-//  main.cpp
+
 //  Think Like A Programmer
+//  Excercises from the book in C++
 //
 //  Created by Sander on 12/06/2018.
 //  Copyright © 2018 Sander. All rights reserved.
-//
 
 #include <iostream>
 using namespace std;
